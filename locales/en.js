@@ -25,7 +25,7 @@ export default {
         ],
         companyName: "Siam Sindhorn Co., Ltd.",
         companyAddress: "Sindhorn. Building Tower 1., 4th Fl., 130-132  Wireless road.,\nPhathumwan.,Bangkok 10330",
-        companyPhone: "Field reservation : 08-7070-8833\nEvent reservation : 092-270-0241",
+        companyPhone: "Field reservation : 087-070-8833\nEvent reservation : 092-270-0241",
         companyEmail: "info@polofootballpark.com",
         companySite: "www.polofootballpark.com",
         companyfacebook: "PoloFootballPark",

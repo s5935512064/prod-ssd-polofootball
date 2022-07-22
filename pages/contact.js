@@ -179,7 +179,7 @@ const Contact = () => {
                                         <FontAwesomeIcon icon={faPhone} className="w-5 h-5 mr-4" />
                                         {t.contact.companyPhone}</p>
 
-                                    <a aria-label="email" href="mailto:info@polofootballpark.com" target="_blank" rel="noopener noreferrer" className="text-sm whitespace-pre-line font-light xs:text-base inline-flex items-center mt-4">
+                                    {/* <a aria-label="email" href="mailto:info@polofootballpark.com" target="_blank" rel="noopener noreferrer" className="text-sm whitespace-pre-line font-light xs:text-base inline-flex items-center mt-4">
                                         <FontAwesomeIcon icon={faEnvelope} className="w-5 h-5 mr-4" />
                                         {t.contact.companyEmail}</a>
 
@@ -205,7 +205,7 @@ const Contact = () => {
                                         <a aria-label="line" target="_blank" rel="noopener noreferrer" className="text-sm whitespace-pre-line font-light xs:text-base inline-flex items-center mt-2">
                                             <FontAwesomeIcon icon={faLine} className="w-5 h-5 mr-4" />
                                             {t.contact.companyLine}</a>
-                                    </Link>
+                                    </Link> */}
                                 </div>
 
 

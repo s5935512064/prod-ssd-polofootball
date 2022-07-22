@@ -7,7 +7,7 @@ import "aos/dist/aos.css";
 import { v4 as uuidv4 } from 'uuid';
 import axios from 'axios';
 import Cookies from "../components/Cookies";
-
+import EventPopup from "../components/EventPopup";
 
 function MyApp({ Component, pageProps }) {
 
@@ -171,6 +171,8 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <>
+
+      <EventPopup />
       <AnimatePresence
         exitBeforeEnter
         initial={false}

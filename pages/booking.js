@@ -118,10 +118,10 @@ const Booking = () => {
               <div className="sm:col-span-2  ">
                 <div className="mt-8 flex gap-3 w-full">
                   <button className="bg-red-400 p-3 w-36">
-                    {locale == 'en' ? "Reserved" : "มีจองแล้ว"}
+                    {locale == 'en' ? "Reserved" : "จองแล้ว"}
                   </button>
 
-                  <button className="bg-[#94E661] p-3 w-36 "> {locale == 'en' ? "Can be booked" : "สามารถจองได้"} </button>
+                  <button className="bg-[#94E661] p-3 w-36 "> {locale == 'en' ? "Available" : "สามารถจองได้"} </button>
                 </div>
                 <p className="text-red-400  font-light">
                   {locale == 'en' ? "*** Status Table reservations are just booking information field. At the current time Changes can not be adjusted, and reserves the right to change. If you have any questions, please contact us." : "***ตารางบอกสถานะการจองนี้เป็นเพียงข้อมูลการจองใช้สนาม ณ เวลาปัจจุบัน ไม่สามารถเปลี่ยนแปลงปรับเปลี่ยนได้ และขอสงวนสิทธิ์ในการเปลี่ยนแปลง หากมีข้อสงสัยกรุณาติดต่อเจ้าหน้าที่"}
@@ -139,7 +139,7 @@ const Booking = () => {
 
                     </div>
                     <div className="w-full h-full flex justify-center items-center !font-normal bg-white shadow">
-                      {locale == "en" ? "Price" : "ราคา"}
+                      {locale == "en" ? "Price/Hour" : "ราคา/ชั่วโมง"}
 
                     </div>
                     <div className="row-span-3 w-full h-full flex items-center justify-center bg-white shadow">
@@ -197,7 +197,7 @@ const Booking = () => {
 
                 <div className="w-full h-48 bg-yellow-200 flex flex-col justify-center items-end my-5 py-5 relative px-6">
                   <p className="inline-flex items-center  justify-center w-full text-xl text-center mb-2">
-                    {locale == "en" ? "For events & activities rule,please contact." : "หากต้องการทราบอัตราค่าบริการ เช่าจัดงาน event และกิจกรรม กรุณาติดต่อ"}
+                    {locale == "en" ? "For events & activities rate,please contact." : "หากต้องการทราบอัตราค่าบริการ เช่าจัดงาน event และกิจกรรม กรุณาติดต่อ"}
                   </p>
 
 
