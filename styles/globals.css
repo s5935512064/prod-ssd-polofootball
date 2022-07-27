@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap");
-@import url("https://unpkg.com/flexmasonry/dist/flexmasonry.css");
+@import url("https://unpkg.com/flexmasonry@0.2.3/dist/flexmasonry.css");
 @import "@fancyapps/ui/dist/fancybox.css";
 
 @tailwind base;
