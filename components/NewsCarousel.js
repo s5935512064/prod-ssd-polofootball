@@ -11,7 +11,7 @@ import Link2 from "next/link";
 moment.locale('th');
 Carousel.Plugins.Autoplay = Autoplay;
 
-const URL = `https://iservices.ssdapp.net/get-feed-facebook`;
+const URL = `https://iservices.ssdapp.net/get-feed-facebook?site=polofootballpark`;
 
 const NewsCarousel = () => {
 
@@ -43,7 +43,7 @@ const NewsCarousel = () => {
     <>
       {!data ? <div id="mainCarousel">Loading..</div> : <div id="mainCarousel" className="carousel  mx-auto py-5 max-h-[300px] sm:max-h-[400px] overflow-hidden ">
         <div className="carousel__viewport">
-          {data.feed.data
+          {data.data
             .filter(p => p.message != null)
             .map((item, index) => (
               <div key={index} className="carousel__slide md:!w-[400px] min-h-[250px] sm:min-h-[350px] md:mx-4 rounded shadow">

@@ -16,7 +16,7 @@ function classNames(...classes) {
     return classes.filter(Boolean).join(" ");
 }
 
-const URL = `https://iservices.ssdapp.net/get-feed-facebook`;
+const URL = `https://iservices.ssdapp.net/get-feed-facebook?site=polofootballpark`;
 
 const fetcher = (url) => axios.get(url).then((res) => res.data);
 
@@ -82,7 +82,7 @@ const News = () => {
                         </p>
                         {/* Highlight */}
                         <div className="grid grid-cols-2 sm:grid-cols-3 sm:grid-rows-2 w-full h-full gap-2 mt-10 ">
-                            {data.feed.data
+                            {data.data
                                 .filter((p, index) => p.message != null)
                                 .map((item, index) => {
                                     if (index >= 3) return null
@@ -131,7 +131,7 @@ const News = () => {
                         <div className="my-10 w-full h-full ">
                             <p className="text-2xl font-medium mb-2">Hot</p>
                             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 ">
-                                {data.feed.data
+                                {data.data
                                     .filter(p => p.message != null)
                                     .map((item, index) => (
 
