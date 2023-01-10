@@ -25,7 +25,7 @@ export default {
         ],
         companyName: "บริษัท สยามสินธร จำกัด",
         companyAddress: "130-132 อาคารสินธร ทาวเวอร์ 1 ชั้น 4 \n ถนนวิทยุ แขวงลุมพินี เขตปทุมวัน กรุงเทพฯ 10330",
-        companyPhone: "จองสนาม : 087-070-8833 \n จองอีเว้นท์ : 092-270-0241",
+        companyPhone: "จองสนาม : 098-356-6565",
         companyEmail: "info@polofootballpark.com",
         companySite: "www.polofootballpark.com",
         companyfacebook: "PoloFootballPark",

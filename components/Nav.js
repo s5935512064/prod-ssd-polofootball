@@ -49,7 +49,7 @@ const Nav = () => {
             />
             <div className="flex-col">
               {locale === "en" ? "Reservation" : "จองสนาม"} <br></br>
-              <a href="tel:+6670708833" className="text-xl">08-7070-8833</a>
+              <a href="tel:+66983566565" className="text-xl">098-356-6565</a>
             </div>
           </div>
 
